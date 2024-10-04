@@ -4,109 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tu Conta</title>
-    <link href="/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/4ac56237c8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
 <body>
-    <header>
-        <div class="logo">
-            <img src="" alt="logo"/>
-        </div>
+    <header class="header">
+            <img src="https://www.zarla.com/images/zarla-cuentas-claras-1x1-2400x2400-20220323-99txfw7r8cvxypcvjpb4.png?crop=1:1,smart&width=250&dpr=2" alt="logo" class="logo"/>
         <section>
-            <p>¡Nuevo servicio!</p>
-            <p>Encárgate de tu negocio, nosotros de tu contabilidad.</p>
+            <p class="header-text">¡Nuevo servicio!</p>
+            <p class="header-text">Encárgate de tu negocio, nosotros de tu contabilidad.</p>
         </section>
     </header>
 
     <main>
         <section class="information-cards">
             <div class="information-card">
-                <i class="information-card__icon"></i>
-                <p>Texto del ícono</p>
+                <i class="information-card__icon fa-solid fa-calculator" aria-hidden="true"></i>
+                <p class="information-card__text">Hacemos tu contabilidad mensual</p>
             </div>
-            <div class="information-card"></div>
-                <i class="information-card__icon"></i>
-                <p>Texto del ícono</p>
+            <div class="information-card">
+                <i class="information-card__icon fa-solid fa-percent"></i>
+                <p class="information-card__text">Calculamos tus impuestos</p>
             </div>
-            <div class="information-card"></div>
-                <i class="information-card__icon"></i>
-                <p>Texto del ícono</p>
+            <div class="information-card">
+                <i class="information-card__icon fa-solid fa-file-invoice-dollar"></i>
+                <p class="information-card__text">Presentamos tus declaraciones SAT</p>
             </div>
-            <div class="information-card"></div>
-                <i class="information-card__icon"></i>
-                <p>Texto del ícono</p>
+            <div class="information-card">
+                <i class="information-card__icon fa-solid fa-hand-holding-dollar"></i>
+                <p class="information-card__text">Cálculo, timbrado y envío de nómina</p>
             </div>
         </section>
 
         <section class="benefits">
-            <div class="benefits-video">
-                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
-            </div>
+            <iframe src="https://www.youtube.com/embed/Rsee8yYaOY4" title="Beneficios" frameborder="0" allowfullscreen class="benefits-video"></iframe>
+
             <div class="benefits-text">
                 <h2 class="benefits-text__subtitle">Beneficios</h2>
                 <ul class="benefits-text__list">
                     <li class="benefits-text__list__item">
-                        <span class="benefits-text__list__item__check">
-                            *
-                        </span>
+                        <i class="benefits-text__list__item__check fa-solid fa-circle-check"></i>
                         <div class="benefits-text__list__item__content">
-                            <strong class="benefits-text__list__item__content__title"></strong>
-                            <p class="benefits-text__list__item__content__description"></p>
+                            <strong class="benefits-text__list__item__content__title">Automático</strong>
+                            <p class="benefits-text__list__item__content__description">Ahorra tiempo al eliminar la tarea de enviar facturas a tu contador ¡El proceso es automático!</p>
                         </div>
                     </li>
-                    <li class="benefits-text__list__item"></li>
-                        <span class="benefits-text__list__item__check">
-                            *
-                        </span>
+
+                    <li class="benefits-text__list__item">
+                        <i class="benefits-text__list__item__check fa-solid fa-circle-check"></i>
                         <div class="benefits-text__list__item__content">
-                            <strong class="benefits-text__list__item__content__title"></strong>
-                            <p class="benefits-text__list__item__content__description"></p>
+                            <strong class="benefits-text__list__item__content__title">Servicio Oportuno</strong>
+                            <p class="benefits-text__list__item__content__description">Comunicación más fácil y efectiva con tu contador</p>
                         </div>
                     </li>
-                    <li class="benefits-text__list__item"></li>
-                        <span class="benefits-text__list__item__check">
-                            *
-                        </span>
+
+                    <li class="benefits-text__list__item">
+                        <i class="benefits-text__list__item__check fa-solid fa-circle-check"></i>
                         <div class="benefits-text__list__item__content">
-                            <strong class="benefits-text__list__item__content__title"></strong>
-                            <p class="benefits-text__list__item__content__description"></p>
+                            <strong class="benefits-text__list__item__content__title">Simplicidad</strong>
+                            <p class="benefits-text__list__item__content__description">Información contable en tiempo real</p>
                         </div>
                     </li>
-                     <li class="benefits-text__list__item"></li>
-                        <span class="benefits-text__list__item__check">
-                            *
-                        </span>
+
+                     <li class="benefits-text__list__item">
+                        <i class="benefits-text__list__item__check fa-solid fa-circle-check"></i>
                         <div class="benefits-text__list__item__content">
-                            <strong class="benefits-text__list__item__content__title"></strong>
-                            <p class="benefits-text__list__item__content__description"></p>
+                            <strong class="benefits-text__list__item__content__title">Confiable</strong>
+                            <p class="benefits-text__list__item__content__description">Cálculos hechos por uno de nuestros contadores expertos asignado especialmente a tu negocio</p>
                         </div>
                     </li>
+
                 </ul>
             </div>
             </section>
 
             <section class="steps">
                 <div class="step">
-                    <i class="step-icon"></i>
+                    <i class="step-icon fa-solid fa-file-signature"></i>
                     <h3 class="step-title"> Paso 1</h3>
-                    <p class="step-description">Descripción</p>
+                    <p class="step-description">Agregar tu FIEL</p>
                 </div>
+
                 <div class="step">
-                    <i class="step-icon"></i>
+                    <i class="step-icon fa-solid fa-database"></i>
                     <h3 class="step-title"> Paso 2</h3>
-                    <p class="step-description">Descripción</p>
+                    <p class="step-description">Sincroniza tus cuentas bancarias</p>
                 </div>
+
                 <div class="step">
-                    <i class="step-icon"></i>
+                    <i class="step-icon fa-solid fa-file-arrow-down"></i>
                     <h3 class="step-title"> Paso 3</h3>
-                    <p class="step-description">Descripción</p>
+                    <p class="step-description">Recibe mensualmente tu declaración de impuestos</p>
                 </div>
             </section>
-            
     </main>
 
     <footer>
