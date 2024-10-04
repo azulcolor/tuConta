@@ -6,6 +6,9 @@
     <title>tu Conta</title>
     <link href="/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
     <script src="/main.js"></script>
 <body>
@@ -114,8 +117,37 @@
         </div>
     </footer>
 
-    <dialog open id="modal">
-
+    <dialog id="packages-modal">
+        <div class="package-modal__card">
+            <h3>Empresarial</h3>
+            <div class="package-modal__card__price">
+                <p class="package-modal__card__price__text">$</p><strong class="package-modal__card__price__text__strong">1,000</strong><p class="package-modal__card__price__text"> + IVA/mes</p>
+            </div>
+            <p class="package-modal__card__movements">1 - 30 movimientos bancarios al mes</p>
+            <button class="package-modal__card__button"></button>
+        </div>
+        <div class="package-modal__card">
+            <h3>Empresarial</h3>
+            <div class="package-modal__card__price">
+                <p class="package-modal__card__price__text">$</p><strong class="package-modal__card__price__text__strong">2,000</strong><p class="package-modal__card__price__text"> + IVA/mes</p>
+            </div>
+            <p class="package-modal__card__movements">31 - 100 movimientos bancarios al mes</p>
+            <button class="package-modal__card__button"></button>
+        </div>
+        <div class="package-modal__card">
+            <h3>Empresarial</h3>
+            <div class="package-modal__card__price">
+                <p class="package-modal__card__price__text">$</p><strong class="package-modal__card__price__text__strong">3,000</strong><p class="package-modal__card__price__text"> + IVA/mes</p>
+            </div>
+            <p class="package-modal__card__movements">101 - 300 movimientos bancarios al mes</p>
+            <button class="package-modal__card__button"></button>
+        </div>
+        <div class="package-modal__card">
+            <h3>Select</h3>
+                <strong class="package-modal__card__price__text__strong">Contáctanos para hacer un paquete a tus necesidades</strong>
+            <p class="package-modal__card__movements">+300 movimientos bancarios al mes</p>
+            <button class="package-modal__card__button"></button>
+        </div>
     </dialog>
 
 </body>
