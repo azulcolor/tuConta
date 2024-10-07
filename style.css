@@ -22,7 +22,7 @@ p {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .logo {
@@ -35,14 +35,14 @@ p {
 }
 
 .main {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .information-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px; 
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .information-card {
@@ -84,7 +84,7 @@ p {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 100px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .benefits-container {
@@ -174,7 +174,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .footer-button {
@@ -290,6 +290,7 @@ p {
     color: #f3f3f3;
     padding: 8px 16px;
     border-radius: 16px;
+    font-size: 12px;
   }
 
   .package-modal__button:hover {
