@@ -242,7 +242,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 16px;
+    gap: 12px;
     align-items: center;
     background: rgba(157, 234, 255, 0.3);
     padding: 16px 24px;
@@ -268,7 +268,7 @@ button {
 
   .package-modal__card__price__text__strong {
     vertical-align: text-bottom;
-    font-size: 24px;
+    font-size: 32px;
     align-self: self-end;
   }
 
