@@ -16,6 +16,7 @@ body {
 
 p {
     font-size: 12px;
+    line-height: 16px;
 }
 
 .header {
@@ -151,7 +152,7 @@ p {
 .step-title {
     color: #47bb27;
     font-size: 16px;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 .step-description {
@@ -159,6 +160,7 @@ p {
     padding: 0 90px;
     text-align: center;
     box-sizing: border-box;
+    margin-top: 4px;
 }
 
 .footer {
@@ -166,7 +168,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .footer-text {
