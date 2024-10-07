@@ -6,7 +6,7 @@
 }
 
 body {
-    padding: 0 10vw;
+    padding: 1vh 10vw;
     display: flex;
     flex-direction: column;
     background: #f3f3f3;
@@ -182,6 +182,7 @@ p {
     padding: 8px 100px;
     border-radius: 24px;
     color: #f3f3f3;
+    font-size: 12px;
 }
 
 .footer-button:hover {
@@ -205,14 +206,25 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
-    padding: 20px;
-    background-color: white;
+    padding: 20px 40px;
+    background-color: #f3f3f3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     width: 80vw;
   }
 
   .package-modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .package-modal__title {
+    text-align: center;
+  }
+
+  .package-modal__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
@@ -221,37 +233,83 @@ p {
   .package-modal__card {
     display: flex;
     flex-direction: column;
-    gap: 4px;
     justify-content: space-between;
+    gap: 8px;
     align-items: center;
     background: rgba(157, 234, 255, 0.3);
-    padding: 10px 20px;
+    padding: 16px 24px;
     border-radius: 8px;
   }
 
   .package-modal__card__title {
     color: #0c80a0;
+    text-align: center;
+    border-bottom: .1px solid #0c80a0;
+    padding-bottom: 6px;
+    width: 100%;
   }
   
   .package-modal__card__price {
     display: flex;
-
   }
 
-  .package-modal::backdrop {
-    background-color: rgba(0, 0, 0, 0.8); 
+  .package-modal__card__price__text {
+    align-self: self-end;
+    font-weight: 500;
   }
 
+  .package-modal__card__price__text__strong {
+    vertical-align: text-bottom;
+    font-size: 24px;
+    align-self: self-end;
+  }
 
+  .package-modal__card__price__text__contact {
+    text-align: center;
+  }
+
+  .package-modal__card__button {
+    border: none;
+    padding: 8px 32px;
+    border-radius: 24px;
+    color: #f3f3f3;
+    background: #0c80a0;
+  }
+
+  .package-modal__card__button:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+    transition: all 0.3s ease-in-out;
+  }
+
+  .package-modal__button {
+    width: 25%;
+    border: none;
+    background: #3c35c6;
+    color: #f3f3f3;
+    padding: 8px 16px;
+    border-radius: 16px;
+  }
+
+  .package-modal__button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+    transition: all 0.3s ease-in-out;
+}
 
 @media (max-width: 980px) {
+    
     .information-cards {
         grid-template-columns: 1fr;
+        margin-bottom: 24px;
     }
 
     .benefits {
         grid-template-columns: 1fr;
-        gap: 16px;
+        gap: 24px;
+        margin-bottom: 16px;
     }
 
     .benefits-video {
@@ -263,6 +321,52 @@ p {
        gap: 64px;
         padding: 40px 0;
     }
+
+    .benefits-text__subtitle {
+        text-align: center;
+    }
+
+    .benefits-text__list__item__check {
+        position: relative;
+        transform: translateX(0);
+        margin-bottom: 8px;
+    }
+
+    .footer-text {
+        padding: 0 24px
+    }
+
+    .footer-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-button {
+        padding: 16px 50px;
+
+    }
+    .package-modal {
+        padding: 8px 24px;
+      }
+    
+    .package-modal__content {
+        gap: 32px;
+        padding: 24px 0;
+    }
+
+    .package-modal__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .package-modal__card {
+        gap: 16px;
+    }
+
+    .package-modal__button {
+        width: 75%;
+        padding: 8px 16px;
+      }
 }
 
 @keyframes float {
