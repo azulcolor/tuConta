@@ -252,7 +252,7 @@ button {
   .package-modal__card__title {
     color: #0c80a0;
     text-align: center;
-    border-bottom: .1px solid #0c80a0;
+    border-bottom: 1px solid #0c80a0;
     padding-bottom: 6px;
     width: 100%;
   }
@@ -387,11 +387,11 @@ button {
 
 @media (min-width: 1200px) {
     .information-cards {
-        gap: 32px; /* Más espacio en pantallas grandes */
+        gap: 32px;
     }
     
     .information-card {
-        padding: 24px 64px; /* Ajusta el padding */
+        padding: 24px 64px;
     }
 
     .benefits {
